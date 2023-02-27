@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.blue-bar {
+    bottom: 0;
+    position: absolute!important;
+    width: 100%;
+}
+
+.your {
+    background: linear-gradient(to right, #4fae7a,
+     #47a28e, #3b90ab,#3687bb);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+    
+}
+
+
+.engage {
+   background: linear-gradient(to right, #4fae7a,
+    #47a28e, #3b90ab,#3687bb);
+           -webkit-text-fill-color: transparent;
+           -webkit-background-clip: text;
+   
+}
+
+ 
+.txt {
+    display: block;
+  }
+  
+
+.banner {
+    background-image:url(/images/photo-1486218119243-13883505764c.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 700px;
+
+    
+    
+}
+
+.d-md-flex {
+    display: flex;
+}
+
+.rounded {
+    border-radius: 12px;
+
+}
+.bg-dark-blue {
+    background-color: #002b58;
+   
+}
+
+
+.services-card {
+    border-radius: 5px;
+    min-height: 300px;
+    overflow: hidden;
+    position: relative;
+   
+    
+}
+
+.services-card .services-card-name {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    
+   
+    
+    
+    
+}
+
+.header {
+   background-color: #105692;
+   height: 5px;
+}
+
+.logo {
+    width: 200px;
+    
+    padding: 2px 10px;
+   
+}
+
+.img_deg {
+    width: 100%;
+}
+.rounded-circle {
+
+    border-radius: 50%;
+}
+    
+.home {
+     color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.home ul li {
+    list-style: none;
+    display: inline-block; 
+    margin: 0 5px; 
+    
+}
+
+.nav-link {
+    color: black;
+}
+
+.log {
+    color:#105692 ;
+}
+
+.Signup {
+    border-radius: 30px;
+    background-color:#d37204 ;
+    border: none;
+    color: white;
+}
+
+.home1{
+    background-color:#002b58;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+.img {
+    vertical-align: middle;
+    width: 100%;
+}   
+   
+   
+
+
+
+
+
+
+.home2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+} 
+
+.lap {
+    background-color:white;
+    
+    text-align: justify;
+}
+
+.laptop {
+   
+    width: 100%;
+}
+
+
+   
+
+
+
+.learn {
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.cards {
+    border-radius: 20px;
+}
+
+ .btnn {
+    background-color:white;
+    color: black;
+} 
+
+.download1 {
+    width: 100%;
+   
+   
+}
+
+
+
+
+
+.evaluation {
+    position: relative;
+    left: 15px;
+    color: white;
+
+}
+.evaluation1 {
+    position: relative;
+    left: 15px;
+    font-size: 13px;
+    color: white;
+}
+
+.evaluation2{
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+}
+
+
+
+.education {
+  position: relative;
+  left: 15px;
+  color: white;
+}
+ 
+
+.education1 {
+    position: relative;
+    left: 15px;
+    font-size: 13px;
+    color: white;
+}
+.education2 {
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+}
+.providers {
+    position: relative;
+    left: 15px;
+    color: white;
+}
+
+.providers1 {
+    position: relative;
+    left: 15px;
+    font-size: 13px;
+    color: white;
+}
+.providers2 {
+    position: relative;
+    left:15px;
+    bottom: 10px;
+}
+
+.butt{
+    color:#88abc9 !important;
+}
+
+
+
+
+
+
+.footer {
+    width:30%;
+    
+}
+.last {
+    background-color: #302633;
+}
+
+
+
+
+
+.why {
+        background-image: url(/images/download\ \(5\).jpeg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+.border-light{
+    border-color: #e6e6e6;
+}
+
+
+
+.so {
+   list-style: none;
+    margin: 10px 0;
+    position: relative;
+    color:white; 
+    font-size: 35px;
+}
+
+.envelope {
+    color:#d8d6d9;
+}
+
+.clinkt {
+    width: 70px;
+}
+
+.copy {
+    text-align: center;
+    color: #d8d6d9;
+
+}
+
+.client {
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 15px;
+    
+}
+
+.submit {
+    background-color: #0f3968;
+    color: white;
+}
+
+.injury {
+    color: white;
+    font-weight: 100;
+}
+
+ .img-fluid {
+    height: auto;
+    max-width: 50% !important;
+} 
+
+
+
+.gradiant-textbox{
+    border-radius: 50px;
+    background: #6cbe46;
+    overflow: hidden;
+    padding: 2px;
+    
+}
+
+.input-group {
+    display: flex;
+    position: relative;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 100%; 
+}
+
+.input-group .form-control {
+    border: none;
+}
+
+.form-bg {
+    background-color: #002b58;
+}
+.gradiant-textbox .input-group-text {
+    border: none;
+    border-radius: 50px;
+}
+
+
+.btn-circle {
+    height: 40px;
+    width: 40px;
+}
+
+.btn-circle-primary {
+    align-items: center;
+    height: 26px;
+    width: 26px;
+}
+.border-primary {
+    border-color: #105692;
+}
+.fa-solid {
+    font-weight: 800;
+    
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+ 
+.media {
+
+    background-image: url(/images/cloud-icon_fkQZ0V_u_SB_PM.jpeg); 
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.bone {
+    position: relative;
+    left: 10px;
+   
+   
+}
+
+
+
+.twitt,
+.fb,
+.linked,
+.you {
+    font-size: 15px;
+    padding: 2px;
+}
+
+
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+   
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 100%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
+
+.moving{
+    position: relative;
+    background-color: #002b58;
+}
+.slide {
+    position: relative;
+    height: 100px;
+    margin: 30px;
+}
+.carousel-inner {
+    position: absolute;
+   
+}
+
+.moving p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+.moving span {
+    color:black;
+}
+
+.mt-5 {
+    margin-top: 15rem!important;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.rounded-3 {
+    border-radius: 1rem!important;
+}
+.border {
+    border: 1px solid #e6e6e6!important;
+}
+
+.bg {
+    background-color: #302633;
+}
+
+.form-control-lg {
+    min-height: calc(1.5em + 1rem + 2px);
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 1.5rem;
+}
+
+.success {
+     background-color: #1e3a59; 
+}
+
+.eddd1 {
+    background-image:
+    linear-gradient(to top, rgba(3, 46, 90, 1), rgba(222, 198, 216, 0.13)),
+    url(/images/download.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.eddd2 {
+    background-image:
+    linear-gradient(to top, rgba(3, 46, 90, 1), rgba(222, 198, 216, 0.13)),
+    url(/images/download\ \(8\).jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.eddd3 {
+    background-image:
+    linear-gradient(to top, rgba(3, 46, 90, 1), rgba(222, 198, 216, 0.13)),
+    url(/images/images.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.bg1 {
+    background-color: #002b58;
+}
+.hipp {
+    color: white;
+}
+
+.b {
+    background-color: #f3f4f6;
+}
+
+
+.at {
+    color: #4c80ad;
+}
+
+.card-title {
+    color: #105692;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .carousel-control-next {
+        right: 220px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .carousel-control-prev {
+        left: 220px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home ul li   {
+        float: none;
+    width: 100%;
+    }
+} 
+
+
+
+
+
+
+
